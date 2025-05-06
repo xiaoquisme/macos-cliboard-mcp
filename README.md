@@ -1,6 +1,6 @@
 # MacOS Clipboard MCP
 
-A simple utility that provides Multimodal Claude Protocol (MCP) tools for interacting with the macOS clipboard.
+A simple utility that provides model context protocol (MCP) tools for interacting with the macOS clipboard.
 
 ## Features
 
