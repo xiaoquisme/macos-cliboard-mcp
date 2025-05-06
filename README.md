@@ -9,6 +9,22 @@ A simple utility that provides model context protocol (MCP) tools for interactin
 - Paste images from the clipboard (supports TIFF, PNG, and JPEG formats)
 
 ## mcp config
+
+
+### method1(recommended)
+```json
+{
+    "clipboard": {
+        "command": "uvx",
+        "args": [
+            "macos-clipboard-mcp"
+        ]
+    }
+}
+```
+
+### method2
+
 ```json
 {
     "clipboard": {
@@ -22,6 +38,7 @@ A simple utility that provides model context protocol (MCP) tools for interactin
         }
 }
 ```
+
 
 ## Installation
 
