@@ -33,7 +33,7 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: dist-${{ matrix.os }}
+        name: dist-${{ matrix.runs-on }}
         path: dist/
 
   publish:
@@ -44,7 +44,7 @@ jobs:
     - name: Download build artifacts
       uses: actions/download-artifact@v4
       with:
-        name: dist-${{ matrix.os }}
+        name: dist-${{ matrix.runs-on }}
         path: dist/
     - name: Publish to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
